@@ -1,2 +1,5 @@
 # JSON files
 *.js
+
+# Virtual Environment directory
+/venv
