@@ -31,6 +31,7 @@ for day in list(pd.Series(days_range.format())):
 	else:
 		all_days[day] = 0
 
+plt.rcParams["font.family"] = "mononoki"
 fig, ax = plt.subplots()
 ax.plot(list(all_days.keys()), list(all_days.values()))
 ax.set_title("Tweets Rate - Daily")
