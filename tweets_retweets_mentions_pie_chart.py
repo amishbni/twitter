@@ -17,7 +17,11 @@ for tweet in data:
 		else:
 			tweets += 1
 
-names = ["tweets", "retweets", "mentions"]
+names = [
+    f"tweets ({tweets})",
+    f"retweets ({retweets})",
+    f"mentions ({mentions})"
+]
 counts = [tweets, retweets, mentions]
 
 plt.rcParams["font.family"] = "mononoki"
