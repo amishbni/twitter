@@ -18,9 +18,9 @@ for tweet in data:
 			tweets += 1
 
 names = [
-    f"tweets ({tweets})",
-    f"retweets ({retweets})",
-    f"mentions ({mentions})"
+    f"Tweets ({tweets})",
+    f"Retweets ({retweets})",
+    f"Mentions ({mentions})"
 ]
 counts = [tweets, retweets, mentions]
 
