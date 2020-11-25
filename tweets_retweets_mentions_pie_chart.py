@@ -20,6 +20,7 @@ for tweet in data:
 names = ["tweets", "retweets", "mentions"]
 counts = [tweets, retweets, mentions]
 
+plt.rcParams["font.family"] = "mononoki"
 fig, ax = plt.subplots()
 ax.pie(
     counts,
