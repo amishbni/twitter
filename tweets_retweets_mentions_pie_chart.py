@@ -37,6 +37,8 @@ ax.pie(
         "antialiased": True
     }
 )
+ax.set_title("Ratio of Tweets, Retweets, and Mentions")
+
 fig.set_facecolor("grey")
 fig.tight_layout()
 fig.savefig("pie.png", dpi=200)
